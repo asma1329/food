@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       
+        <div> <img class="image1" src="images/1.png" ></div>
+        <div class="nav">
+                <a class="about" href="#">ABOUT</a>
+                <a class="food" href="#food">OUR FOOD &nbsp;&nbsp;&nbsp;&nbsp; </a>
+                <a class="plans" href="#plans">PLANS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+                <a class="contact" href="#contact" >CONTACT US </a>
+        </div>
+        <div class="logo"><img width="170" height="70" src="images/2.png"/> </div>
+        <br><br><br><br><br><br>
+        <section class="p1">
+            <p>Have no time <br>to prepare <span style="color:#FF6600;">food</span>?</p> 
+       </section>
+       <section class="p2">
+           <p> Choose one of our plans, enter delivery time <br>and enjoy delicious food without leaving your home! </p>
+       </section>
+       <br>
+       <a href="#"> <button class="order">Order Food</button></a>
+       <div class="icons">
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-dribbble"></a>
+             <a href="#" class="fa fa-instagram"></a>
+       </div>
+     
+   <div id="food">
+       <div> <img class="image2" src="images/3.png" ></div>
+       <br><br>
+       <section class="p3">
+           <p>OUR FOOD</p>
+       </section>
+       <section class="p4">
+           <ul class="ul2">
+               <li>Signature Pizzas <br> <small style="color:grey;">Choose one of our plans, enter delivery time.</small></li>
+               <li>Oven-baked Subs <br> <small style="color:grey;">Choose one of our plans, enter delivery time and enjoy delicious food without leaving your home!</small></li>
+               <li>Wings, Sides & More <br> <small style="color:grey;">Choose one of our plans, enter delivery time.</small></li><br>
+           </ul>
+           
+       </section>
+       <a href="#"> <button class="order2">Order Food</button></a>
+       
+    </div>
+    <br><br><br><br§>
+
+   
+    <div id="plans">
+      
+      <div class="image3"><img width="1600px" height="400px" src="images/5.png"></div>
+      <!--<div class="image4"><img width="500px" height="350px" src="images/6.png"></div>
+      <div class="image5"><img width="500px" height="350px" src="images/7.png"></div>-->
+      <section class="p5">
+            <br><p>PLANS</p>
+      </section>
+      <div class="row">
+            <div class="column image4">
+              <img src="images/6.png" style="width:100%">
+            </div>
+            <div class="column image5">
+              <img src="images/7.png" style="width:100%">
+            </div>
+
+      </div>
+    </div>
+   
+    <div id="contact">
+         <section class="p6">
+            <br>
+            <p>Contact us</p>
+         </section>
+         <img class="image6" src="images/8.png">
+         
+         <div class="contain">
+                <form class="form-signin" onsubmit="return verifForm(this)">
+                      <input type="text" class="form-control" name="name" placeholder="Full name" onblur="verifName(this)"> <br>
+                      <input type="text" class="form-control" name="email" placeholder="Email address" onblur="verifMail(this)"><br>
+                      <input type="text" class="form-control" name="num" placeholder="Phone number" onblur="verifNum(this)"><br>
+                      <textarea cols="30" rows="4" name="msg"  placeholder="Message" onblur="verifMsg(this)"></textarea>
+                      <div class="checkbox mb-3">
+                         <label> <input type="checkbox" checked> I agree with all conditions </label>
+                      </div>
+                      <input class="submit" type="submit" value="Submit" />
+                </form>  
+         </div>
+         
+    </div>
+
+    <footer class=" container-fluid text-center">
+            <div class="row">
+               <div class="col">
+               
+                <h1 style="font-weight:bold">FOOD. <span style="color:#FF6600;font-weight:bold;">LOGO</span></h1>
+                 
+            
+               </div>
+            
+                <div class="col">
+                    <h3 style="font-weight:bold">Contact</h3>
+                   
+                    <ul class="ul3" style="list-style-type: none;text-align:left;">
+                            <li>Lorem ipsum,#239, Tricity Plaza</li>
+                            <li>Peermuchalla,Zirakpur,Muhali</li>
+                            <li>Telephone:+91 99999-88888</li>
+                            <li>E-mail: mail@Babaapp.com</li>
+                    </ul>
+                </div>
+                <div class="col">
+                        <h3 style="font-weight:bold">Menu</h3>
+                        <ul class="ul3" style="list-style-type: none;">
+                                <a class="a1" href= "index.html"><li>About us</li></a>
+                                <a class="a1" href= "#food"><li>Our food</li></a>
+                                <a class="a1" href= "#plans"><li>Plans</li></a>
+                                <a class="a1" href= "#contact"><li>Contact us</li></a>
+                         </ul>
+                    </div>
+                <div class="col">
+                    <h3 style="font-weight:bold">Follow us</h3>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    
+                </div>
+                
+            </div>
+            <p style="text-align: left;" class="mt-5 mb-3 text-muted">&copy;All Rights Reserved.</p>
+        </footer>
+          
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

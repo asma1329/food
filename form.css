@@ -1,0 +1,45 @@
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+    font-size:20px;
+    color:white;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  
+  .submit{
+      font-family:'Arial';
+      font-size:25px;
+      color:#FF6600;
+      font-weight:bold;
+      background-color: white;
+      width:200px;
+      height:50px;
+      border-radius:5px;
+      text-align:center;
+      padding:5px;
+      margin-left:40px; 
+  }
+  .contain {
+      margin-left:250px;
+      max-width:400px;
+      background-color:rgb(251, 183, 55);
+      border-radius:10px;
+      position:relative;
+      
+    }
+    
